@@ -22,7 +22,7 @@ Enfin, ces projets peuvent participer au  concours **[T'Hacka Voir](https://thac
  
 ### Python / guizero : interface graphique pour Python
 
-### <img src="https://github.com/truillet/upssitech/blob/master/SRI/1A/Code/Processing_2021_logo.png" width=64> [Processing.org](https://www.processing.org)
+### <img src="https://github.com/truillet/upssitech/blob/master/SRI/3A/Code/Processing_2021_logo.png" width=64> [Processing.org](https://www.processing.org)
 * [supports Processing.org](https://github.com/truillet/processing)
 * [les exemples de base](https://github.com/truillet/ups/blob/master/l1info/code/exercices_processing.zip)
 
