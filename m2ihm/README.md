@@ -1,19 +1,26 @@
 # Interaction vocale
 
 ## Cours
-* [Interaction vocale en entrée et sortie](https://github.com/truillet/ups/blob/master/m2ihm/Cours/I_V(IO)_Master_3_0.pdf)
+* [Interaction vocale en entrée et sortie](https://github.com/truillet/ups/blob/master/m2ihm/Cours/I_V(IO)_Master_3_0.pdf) (2025)
+
+### GrXML / SSML
 * **[GrXML pour SAPI 5](https://github.com/truillet/ups/blob/master/m2ihm/Cours/GrXML.pdf)**
    * [Spécification grXML](https://www.w3.org/TR/speech-grammar)
-* **[support SSML pour SAPI 5](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/Memo/ssml.pdf)**
+* **[support SSML pour SAPI 5](https://github.com/truillet/upssitech/blob/master/SRI/5A/IHM/Memo/ssml.pdf)**
    * [Speech Synthesis Markup Language - SSML](https://www.w3.org/TR/speech-synthesis11) 
-* autres liens "intéressants"
+
+### autres liens "intéressants"
    * [seeing with sound](https://www.seeingwithsound.com/webvoice/webvoice.htm) : un exemple de transmodalité 
    * [Renault 25 et TTS](https://www.dailymotion.com/video/x2vt9b)
-
 
 ## Travaux Pratiques
 ### TP1
 [Interaction vocale](https://github.com/truillet/ups/blob/master/m2ihm/TP/lab1_vocal.md) (2025)
+
+**Les outils utilisés par le TP** :
+  * agent de reconnaissance vocale / Speech Recognizer agent [sra5](https://github.com/truillet/ivy/blob/master/agents/sra5.zip)
+  * agent de synthèse vocale / speech Synthesis agent [ppilot5 v 3.3](https://github.com/truillet/ivy/blob/master/agents/ppilot5_3.3.zip)
+ * outil de supervision ivy / ivy monitoring tool [Probe](https://github.com/truillet/ivy/blob/master/code/Probe.zip) ou / or [visionneur](https://github.com/truillet/ivy/blob/master/code/visionneur_1_2.zip) 
 
 **Exemples**
 * Exemple de grammaire [grXML](https://github.com/truillet/ups/blob/master/m2ihm/Cours/GrXML.pdf) : **[grammar.grxml](https://github.com/truillet/ups/blob/master/m2ihm/TP/grammar.grxml)**
@@ -24,11 +31,9 @@
 ### TP2
 [Multimodalité en sortie](https://github.com/truillet/ups/blob/master/m2ihm/TP/lab2_multimodalite.md) (2025)
   
-**Les outils utilisés par les TP** : 
-  * agent de reconnaissance vocale / Speech Recognizer agent [sra5](https://github.com/truillet/ivy/blob/master/agents/sra5.zip)
+**Les outils utilisés par le TP** : 
   * agent de synthèse vocale / speech Synthesis agent [ppilot5 v 3.3](https://github.com/truillet/ivy/blob/master/agents/ppilot5_3.3.zip)
   * agent d'affichage braille / braille display agent [Braille_display](https://github.com/truillet/ups/blob/master/m2ihm/TP/Braille_display.zip)
-  * outil de supervision ivy / ivy monitoring tool [Probe](https://github.com/truillet/ivy/blob/master/code/Probe.zip) ou / or [visionneur](https://github.com/truillet/ivy/blob/master/code/visionneur_1_2.zip) 
   * [Toulouse.html](https://github.com/truillet/ups/blob/master/m2ihm/TP/Toulouse.html)
  
 ## Liens
