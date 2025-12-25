@@ -14,7 +14,7 @@
    * [Renault 25 et TTS](https://www.dailymotion.com/video/x2vt9b)
 
 ## Travaux Pratiques
-### TP1
+### TP1 - Intéraction vocale
 [Interaction vocale](https://github.com/truillet/ups/blob/master/m2ihm/TP/lab1_vocal.md) (2025)
 
 **Les outils utilisés par le TP** :
@@ -28,7 +28,7 @@
 * code java permettant l'affichage issu de la reconnaissance vocale : **[vocal_ivy.java](https://github.com/truillet/ups/blob/master/m2ihm/TP/vocal_ivy.java)**
 * code python utilisant la reconnaissance de parole : **[SR_ivy.py](https://github.com/truillet/tas_de_code/blob/master/Speech_Recognition/SR_ivy.py)**
 
-### TP2
+### TP2 - Multimodalité en sortie
 [Multimodalité en sortie](https://github.com/truillet/ups/blob/master/m2ihm/TP/lab2_multimodalite.md) (2025)
   
 **Les outils utilisés par le TP** : 
