@@ -14,7 +14,7 @@
    * [Renault 25 et TTS](https://www.dailymotion.com/video/x2vt9b)
 
 ## Travaux Pratiques
-### TP1 - Intéraction vocale
+### TP1 - Interaction vocale
 [Interaction vocale](https://github.com/truillet/ups/blob/master/m2ihm/TP/lab1_vocal.md) (2025)
 
 **Les outils utilisés par le TP** :
