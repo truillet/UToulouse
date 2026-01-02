@@ -23,7 +23,7 @@ L’objectif est de développer un **mini-moteur de fission multimodale** permet
     *	faire varier les *paramètres prosodiques* de la synthèse vocale (débit, élocution et volume) d’après l’attribut mis en jeu. Par exemple, l’attribut **gras**, pouvant dénoter une phrase avec une sémantique forte, il faudra l’énoncer avec une vitesse plus lente et un fort volume.
     *	ou enfin utiliser une plage braille simulée (pour les non-voyants) sur laquelle les attributs typographiques en jeu sont affichés pendant que la synthèse restitue le texte.
 
-Vous pouvez utiliser l'exemple html disponible ici	: (Toulouse.html) pour effectuer vos tests.
+Vous pouvez utiliser l'exemple html disponible ici	: [Toulouse](Toulouse.html) pour effectuer vos tests.
 
 ### outils disponibles
 *	[ppilot5](https://github.com/truillet/ivy/blob/master/agents/doc_ppilot5.md), agent ivy de synthèse vocale (prend en compte le format [SSML](https://www.w3.org/TR/speech-synthesis11)
