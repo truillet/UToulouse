@@ -1,7 +1,7 @@
 # Interaction vocale
 
 ## Cours
-* [Interaction vocale en entrée et sortie](https://github.com/truillet/ups/blob/master/m2ihm/Cours/I_V(IO)_Master_3_0.pdf) (2025)
+* [Interaction vocale en entrée et sortie](https://github.com/truillet/ups/blob/master/m2ihm/Cours/I_V(IO)_Master_3_1.pdf) (2025)
 
 ### GrXML / SSML
 * **[GrXML pour SAPI 5](https://github.com/truillet/ups/blob/master/m2ihm/Cours/GrXML.pdf)**
