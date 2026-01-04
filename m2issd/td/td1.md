@@ -9,7 +9,7 @@ Deux systèmes d’adressage internet cohabitent (encore) à l’heure actuelle�
 * adresse ipv4 : *192.168.116.8*
 * adresse ipv6 : *fe80::215:5dff:fe8b:771d*
 
-**En France, le pourcentage d’utilisation d’IPv6 n’était que de 43% mi-2020 et 62% mi-2023 (le fin de migration est prévue pour 2030) !**
+**En France, le pourcentage d’utilisation d’IPv6 n’était que de 43% mi-2020 et 86% début 2026 (le fin de migration est prévue pour 2030) !** (pour suivre l'évolution, [GoogleIPv6](https://www.google.com/intl/en/ipv6/statistics.html))
 
 ### 1.1 Identification d’une machine
 Une machine (appelée aussi hôte ou host) est identifiée dans Internet par son **adresse**. L’adresse Internet d’une machine correspond à un numéro qui est **unique** dans le monde.
