@@ -16,7 +16,7 @@ Après avoir <ins>pris en main</ins> les [agents de reconnaissance **sra5**](htt
 
 1. de **définir la grammaire de reconnaissance** (commandes vocales ou langage *pseudo-naturel*) qui sera utilisée par votre application, gérer les résultats de la sortie sémantique (i.e. les concepts associés aux paroles prononcées) ainsi que le taux de confiance (Vous pouvez consulter la document [GrXML pour SAPI 5](https://github.com/truillet/ups/blob/master/m2ihm/Cours/GrXML.pdf) ou la [spécification grXML](https://www.w3.org/TR/speech-grammar)).
 2. de **définir les retours (feedbacks) vocaux à synthétiser** et retours sonores utilisés par votre application (Vous pouvez consulter le [support SSML pour SAPI 5](https://github.com/truillet/ups/blob/master/m2ihm/Cours/ssml.pdf) ou la spécification [SSML - Speech Synthesis Markup Language](https://www.w3.org/TR/speech-synthesis11)). 
-3. de **développer une application** d’affichage des plats à l’écran (en java, [Processing.org](https://www.processing.org) (voir [le dessert vocal](https://github.com/truillet/ups/blob/master/m2ihm/TP/dessert_vocal.zip) pour un exemple), python ... ou un autre langage).
+3. de **développer une application** d’affichage des plats à l’écran (en python ... ou un autre langage).
 5. et enfin **développer le contrôleur de dialogue** à **l’aide d’une machine à états** (qui peut être soit séparée, soit incluse dans l’application d’affichage de la forme). Le contrôleur s’appuiera sur un échange de messages [ivy](https://github.com/truillet/ivy/blob/master/README.md) avec *a minima* les modules de reconnaissance et de synthèse vocale.
 
 A la fin de la séance, vous aurez produit un **prototype haute-fidélité testable** du système demandé. 
@@ -24,7 +24,6 @@ A la fin de la séance, vous aurez produit un **prototype haute-fidélité testa
 ## Outils disponibles
 * [sra5](https://github.com/truillet/ivy/blob/master/agents/sra5.zip), agent de reconnaissance vocale (prend en compte le format [GrXML](https://www.w3.org/TR/speech-grammar)
 *	[ppilot5](https://github.com/truillet/ivy/blob/master/agents/doc_ppilot5.md), agent ivy de synthèse vocale (prend en compte le format [SSML](https://www.w3.org/TR/speech-synthesis11)
-*	[Braille_display](https://github.com/truillet/ups/blob/master/m2ihm/TP/Braille_display.zip), agent ivy simulant une plage braille 10 points braille
 *	le [visionneur ivy](https://github.com/truillet/ivy/blob/master/lib/visionneur_1_2.zip)
 *	Le [middleware ivy](https://github.com/truillet/ivy)
 
