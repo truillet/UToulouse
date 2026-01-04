@@ -1,7 +1,7 @@
 # Interaction vocale
 
 ## Cours
-* [Interaction vocale en entrée et sortie](https://github.com/truillet/ups/blob/master/m2ihm/Cours/I_V(IO)_Master_3_1.pdf) (2025)
+* [Interaction vocale en entrée et sortie](https://github.com/truillet/ups/blob/master/m2ihm/Cours/I_V(IO)_Master_3_1.pdf) (2026)
 
 ### GrXML / SSML
 * **[GrXML pour SAPI 5](https://github.com/truillet/ups/blob/master/m2ihm/Cours/GrXML.pdf)**
@@ -15,7 +15,7 @@
 
 ## Travaux Pratiques
 ### TP1 - Interaction vocale
-[Interaction vocale](https://github.com/truillet/ups/blob/master/m2ihm/TP/lab1_vocal.md) (2025)
+[Interaction vocale](https://github.com/truillet/ups/blob/master/m2ihm/TP/lab1_vocal.md) (2026)
 
 **Les outils utilisés par le TP** :
   * agent de reconnaissance vocale / Speech Recognizer agent [sra5](https://github.com/truillet/ivy/blob/master/agents/sra5.zip)
@@ -24,8 +24,6 @@
 
 **Exemples**
 * Exemple de grammaire [grXML](https://github.com/truillet/ups/blob/master/m2ihm/Cours/GrXML.pdf) : **[grammar.grxml](https://github.com/truillet/ups/blob/master/m2ihm/TP/grammar.grxml)**
-* code Processing permettant l'affichage issu de la reconnaissance vocale et envoi vers la synthèse : **[vocal_ivy](https://github.com/truillet/ups/blob/master/m2ihm/TP/dessert_vocal.zip)**
-* code java permettant l'affichage issu de la reconnaissance vocale : **[vocal_ivy.java](https://github.com/truillet/ups/blob/master/m2ihm/TP/vocal_ivy.java)**
 * code python utilisant la reconnaissance de parole : **[SR_ivy.py](https://github.com/truillet/tas_de_code/blob/master/Speech_Recognition/SR_ivy.py)**
 
 ### TP2 - Multimodalité en sortie
