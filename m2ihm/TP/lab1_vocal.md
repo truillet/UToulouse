@@ -27,3 +27,5 @@ A la fin de la séance, vous aurez produit un **prototype haute-fidélité testa
 *	le [visionneur ivy](https://github.com/truillet/ivy/blob/master/lib/visionneur_1_2.zip)
 *	Le [middleware ivy](https://github.com/truillet/ivy)
 
+## Exemple
+* code java+python utilisant ivy pour la reconnaissance et synthèse vocale : **[dessert]**(https://github.com/truillet/UToulouse/blob/master/m2ihm/TP/dessert.zip)
