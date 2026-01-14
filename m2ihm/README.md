@@ -25,7 +25,7 @@
 **Exemples**
 * Exemple de grammaire [grXML](https://github.com/truillet/ups/blob/master/m2ihm/Cours/GrXML.pdf) : **[grammar.grxml](https://github.com/truillet/ups/blob/master/m2ihm/TP/grammar.grxml)**
 * code python utilisant la reconnaissance de parole : **[SR_ivy.py](https://github.com/truillet/tas_de_code/blob/master/Speech_Recognition/SR_ivy.py)**
-* code java+python utilisant ivy pour la reconnaissance et synthèse vocale : **[dessert]**(https://github.com/truillet/UToulouse/blob/master/m2ihm/TP/dessert.zip)
+* code java+python utilisant ivy pour la reconnaissance et synthèse vocale : **[dessert]https://github.com/truillet/UToulouse/blob/master/m2ihm/TP/dessert.zip)**
 
 ### TP2 - Multimodalité en sortie
 [Multimodalité en sortie](https://github.com/truillet/ups/blob/master/m2ihm/TP/lab2_multimodalite.md) (2025)
