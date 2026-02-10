@@ -2,48 +2,50 @@
 
 Cet enseignement est en lien étroit avec le [FabLab](http://campusfab.univ-tlse3.fr) de l'université qui met à disposition son matériel et logiciels :  imprimantes 3D, découpeuse laser, machines CNC et systèmes électroniques (arduino, raspberry Pi, ...). Il est ouvert pour les étudiants en Informatique, EEA (CMI) et MIASHS au second semestre de l'année universitaire.
 
- -->**[Présentation Générale de l'UE](https://github.com/truillet/ups/blob/master/l1info/supports/L1_FabNum.pdf)**<--
+## Présentation Générale de l'UE
+* [Présentation]()
 
 
-Enfin, ces projets peuvent participer au  concours **[T'Hacka Voir](https://thackavoir.fr)** organisé lui aussi par ["Cherchons Pour Voir"](http://cherchonspourvoir.org) <img src="https://github.com/truillet/ups/blob/master/l1info/projets/logo_cpv.png" width=50 valign="middle">
+## Initialisation
+### Interfaces Graphiques
+* [introduction à Tkinter](https://github.com/truillet/ups/blob/master/l1info/supports/tkinter.pdf) et les [exercices](https://github.com/truillet/ups/blob/master/l1info/code/tkinter.zip)
+* [Lien vers documentation TKinter en français](http://tkinter.fdex.eu/index.html)
+* guizero
+  
+### Programmation Arduino/Rapsberry
+* support de présentation arduino
+  * exemples de base
+  * 
+**Drivers**
+* Driver [SER340](https://sparks.gogo.co.nz/ch340.html) (clones arduino)
+* Driver [CP210x](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
+  
+### modélisation 3d
+* openScad
+
 
 ## Photos de projets des années précédentes
 * Les photos des projets [2017](https://goo.gl/photos/ziiTxKuK3US1Zgwo6), [2018](https://photos.app.goo.gl/4vy6OGd5W74osKal1), [2019](https://photos.app.goo.gl/YDe1hAeWh82qXuxS6), ~~2020~~ (pour cause de confinement général, les projets ne sont malheureusement pas arrivés à terme), [2021](https://photos.app.goo.gl/aM46jGBa2pTGjJdQ7), [2022](https://photos.app.goo.gl/5idE69rDTeeKDa5CA), [2023](https://photos.app.goo.gl/qbkTpKCmo7s3RnCS8), [2024](https://photos.app.goo.gl/sRHK6riRV7avX9CHA) et [2025](https://photos.app.goo.gl/uDgoHpWasUrPD6Lu9)
             
 ## Tips et outils 
-* [Se connecter au réseau wifi eduroam](https://cat.eduroam.org)
-* [installer WSL - **W**indows **S**ubsystem for **L**inux](https://learn.microsoft.com/fr-fr/windows/wsl/install)
-
-## Les langages et outils utilisés
-
-### Python / tkinter : interface graphique pour Python
-* [introduction à Tkinter](https://github.com/truillet/ups/blob/master/l1info/supports/tkinter.pdf) et les [exercices](https://github.com/truillet/ups/blob/master/l1info/code/tkinter.zip)
-* [Lien vers documentation TKinter en français](http://tkinter.fdex.eu/index.html)
- 
-### Python / guizero : interface graphique pour Python
-
-### <img src="https://github.com/truillet/upssitech/blob/master/SRI/3A/Code/Processing_2021_logo.png" width=64> [Processing.org](https://www.processing.org)
-* [supports Processing.org](https://github.com/truillet/processing)
-* [les exemples de base](https://github.com/truillet/ups/blob/master/l1info/code/exercices_processing.zip)
+* [Se connecter au réseau wifi eduroam](https://eduroam.org/geteduroam-get-connected-quickly-and-safely/)
+* [installer WSL sous windows - **W**indows **S**ubsystem for **L**inux](https://learn.microsoft.com/fr-fr/windows/wsl/install)
 
 
+<!--
 ### micro:bit
 * [introduction à micro:bit](https://github.com/truillet/ups/blob/master/l1info/supports/microbit.pdf)
 
 ### arduino.cc
 * [support de présentation arduino](https://github.com/truillet/ups/blob/master/l1info/supports/L1_arduino.pdf)
 * [les exemples de base](https://github.com/truillet/ups/blob/master/l1info/code/Processing_base.zip)
-* [exemple mêlant arduino et processing - envoi et lecture de données](https://github.com/truillet/ups/blob/master/l1info/code/processing_arduino.zip)
 
-**Drivers**
-* Driver [SER340](https://sparks.gogo.co.nz/ch340.html) (clones arduino)
-* Driver [CP210x](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
 
 ### Raspberry PI
 * [principes généraux et installation](https://github.com/truillet/ups/blob/master/l1info/supports/Introduction_RPi.pdf)
 * [raspberry pinout](https://pinout.xyz)
 * [raspberry pico](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html)
-
+--> 
 
 ## Publications en relation avec l'UE
 * Giraud S., Truillet P., Gaildrat V., Jouffrais C. (2017) ["DIY" Prototyping of Teaching Materials for Visually Impaired Children: Usage and Satisfaction of Professionals](https://doi.org/10.1007/978-3-319-58706-6_42), In: Antona M., Stephanidis C. (eds) Universal Access in Human–Computer Interaction. Design and Development Approaches and Methods. UAHCI 2017. Lecture Notes in Computer Science, vol 10277. Springer	
