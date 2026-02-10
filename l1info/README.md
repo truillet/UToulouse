@@ -1,4 +1,4 @@
-# UE FabNum - Fabrication Numérique
+# UE FabNum - Fabrication Numérique (KINXPP31)
 
 Cet enseignement est en lien étroit avec le [FabLab](http://campusfab.univ-tlse3.fr) de l'université qui met à disposition son matériel et logiciels :  imprimantes 3D, découpeuse laser, machines CNC et systèmes électroniques (arduino, raspberry Pi, ...). Il est ouvert pour les étudiants en Informatique, EEA (CMI) et MIASHS au second semestre de l'année universitaire.
 
@@ -8,14 +8,16 @@ Cet enseignement est en lien étroit avec le [FabLab](http://campusfab.univ-tlse
 
 ## Initialisation
 ### Interfaces Graphiques
-* [introduction à Tkinter](https://github.com/truillet/ups/blob/master/l1info/supports/tkinter.pdf) et les [exercices](https://github.com/truillet/ups/blob/master/l1info/code/tkinter.zip)
+* [introduction à Tkinter](https://github.com/truillet/ups/blob/master/l1info/supports/tkinter.pdf)
+  *  [exercices](https://github.com/truillet/ups/blob/master/l1info/code/tkinter.zip)
 * [Lien vers documentation TKinter en français](http://tkinter.fdex.eu/index.html)
 * guizero
   
 ### Programmation Arduino/Rapsberry
 * support de présentation arduino
   * exemples de base
-  * 
+* support de présentation raspberry
+     
 **Drivers**
 * Driver [SER340](https://sparks.gogo.co.nz/ch340.html) (clones arduino)
 * Driver [CP210x](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
