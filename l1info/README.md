@@ -23,8 +23,7 @@ Cet enseignement est en lien étroit avec le [FabLab](http://campusfab.univ-tlse
 * Driver [CP210x](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
   
 ### modélisation 3d
-* openScad
-
+* [openScad](https://github.com/truillet/UToulouse/blob/master/l1info/supports/Atelier_openSCAD.pdf)
 
 ## Photos de projets des années précédentes
 * Les photos des projets [2017](https://goo.gl/photos/ziiTxKuK3US1Zgwo6), [2018](https://photos.app.goo.gl/4vy6OGd5W74osKal1), [2019](https://photos.app.goo.gl/YDe1hAeWh82qXuxS6), ~~2020~~ (pour cause de confinement général, les projets ne sont malheureusement pas arrivés à terme), [2021](https://photos.app.goo.gl/aM46jGBa2pTGjJdQ7), [2022](https://photos.app.goo.gl/5idE69rDTeeKDa5CA), [2023](https://photos.app.goo.gl/qbkTpKCmo7s3RnCS8), [2024](https://photos.app.goo.gl/sRHK6riRV7avX9CHA) et [2025](https://photos.app.goo.gl/uDgoHpWasUrPD6Lu9)
