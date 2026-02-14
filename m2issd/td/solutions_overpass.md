@@ -29,6 +29,7 @@ out geom;
 ```
 relation [boundary="administrative"][admin_level=8]
  ({{bbox}});
+ (._;>;);
 out body;
 ```
 
@@ -47,6 +48,7 @@ out geom;
   way["highway"]
   (if: (is_number(t["maxspeed"]) && t["maxspeed"] > 50))(area.searchArea);
 );
+out geom;
 ```
 
 ## Afficher le nombre de bâtiments recensés de Mervilla (31) suivant leur type 
@@ -67,8 +69,8 @@ out count;
 [out:json][timeout:25];
 area[name="Toulouse"];
 node(area)["public_transport"="stop_position"] ["subway"="yes"] ;
-node(around:100)[amenity=“bar”]
-out body;
+node(around:100)[amenity="bar"];
+out geom;
 ```
 
 ## Trouver les bâtiments isolés de Arvieux (05) à plus de 100 m d’une autre habitation
@@ -104,7 +106,7 @@ out body;
 
 ## Afficher toutes les écoles de Tournefeuille (31) en bleu
 ```
-out:json][timeout:25];
+[out:json][timeout:25];
 
 {{geocodeArea:"Tournefeuille"}}->.searchArea;
 (  
@@ -132,7 +134,7 @@ area[name="Toulouse"];
 
 node(area)["public_transport"="stop_position"] ["subway"="yes"] ;
 node(around:100)[amenity="bar"];
-out;
+out geom;
 ```
 
 ## Représenter tous les arrêts de bus de Castanet-Tolosan (31) et afficher leur nom 
@@ -151,6 +153,7 @@ out;
 );
 out body;
 ```
+
 
 
 
