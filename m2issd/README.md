@@ -24,7 +24,7 @@
 ## Travaux Dirigés
 * **TD1** : [TCP/IP](https://github.com/truillet/ups/blob/master/m2issd/td/td1.md) (2025)
 * **TD2** :
-  * [Introduction à Overpass](https://github.com/truillet/ups/blob/master/m2issd/cours/OverPass.pdf) (2025)
+  * [Introduction à Overpass](https://github.com/truillet/ups/blob/master/m2issd/cours/OverPass.pdf) (2025) et [solutions](https://github.com/truillet/UToulouse/blob/master/m2issd/td/solutions_overpass.md) (2026)
   * [excercice](https://github.com/truillet/ups/blob/master/m2issd/td/td2_overpass.md) (2025)
   * [Business Intelligence](https://github.com/truillet/ups/blob/master/m2issd/td/td2_busint.md) (2025)
     * Un jeu : [Sourcing Games, Games for Recruiters and Sourcers](https://sourcing.games)
