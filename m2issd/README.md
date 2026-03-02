@@ -36,7 +36,7 @@
       * [SunCalc](https://www.suncalc.org)
 * **TD3** : [Découverte de la topologie réseau](https://github.com/truillet/ups/blob/master/m2issd/td/td3.md) (2026)
    * [NMAP Cheat Sheet](https://www.stationx.net/nmap-cheat-sheet)
-* **TD4** : [Initiation à la Sécurité Informatique](https://github.com/truillet/ups/blob/master/m2issd/td/td4.md) (2025)
+* **TD4** : [Initiation à la Sécurité Informatique](https://github.com/truillet/ups/blob/master/m2issd/td/td4.md) (2026)
    * [QuickHash #GUI](https://www.quickhash-gui.org)
    * [Rowbot's PenTest Notes](https://guide.offsecnewbie.com/shells)
    * **stéganographie** : [The Undetectable Cybersecurity Threat](https://builtin.com/cybersecurity/steganography) / [Steg-NG](https://github.com/brandon1024/steg-png)
