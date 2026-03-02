@@ -5,10 +5,12 @@ Durant la suite des exercices, nous allons travailler avec le système d’explo
 
 Nous aborderons quelques éléments et outils de la sécurité : intégrité de données, attaque par force brute, cryptage et stéganographie.
 
-## Empreintes MD5 / SHA-1
-En cryptographie, MD5 (Message Digest algorithm 5 défini par Ronald Rivest en 1991 au MIT) et SHA-1 (Secure Hash Algorithm 1 défini par la NSA en 1993) sont des fonctions de hachage fréquemment utilisées pour vérifier l’intégrité des fichiers.
+## Empreintes md5 / SHA-1
+En cryptographie, [MD5](https://en.wikipedia.org/wiki/MD5) (Message Digest algorithm 5 défini par Ronald Rivest en 1991 au MIT) et [SHA-1](https://en.wikipedia.org/wiki/SHA-1) (Secure Hash Algorithm 1 défini par la NSA en 1993) sont des [fonctions de hachage](https://zestedesavoir.com/tutoriels/1895/les-fonctions-de-hachage-cryptographiques) utilisées pour vérifier l’intégrité des fichiers (aujourd'hui, ces algorithmes sont considérés **comme obsolètes** et il est fortement recommandé d'utiliser *SHA-2* ou *SHA-3* quand c'est possible)
 
-Devenu un standard internet, [MD5](http://www.ietf.org/rfc/rfc1321.txt) est employé dans beaucoup d’applications de sécurité et permet rapidement de s’assurer de l’intégrité de fichiers (utile lors de téléchargement). Ainsi,  en  comparant  l’empreinte  md5  du  fichier  que  vous  venez  de  récupérer  à  l’empreinte  que  le  site  de téléchargement vous donne, vous pouvez vous assurer que vous possédez le même fichier que l’original.
+Devenu un standard internet, [MD5](http://www.ietf.org/rfc/rfc1321.txt) est employé dans beaucoup d’applications de sécurité et permet rapidement de s’assurer de l’intégrité de fichiers (utile lors de téléchargement). Il est à noter que ces algorithmes 
+
+Ainsi, en comparant  l’empreinte  md5  du  fichier  que  vous  venez  de  récupérer  à  l’empreinte  que  le  site  de téléchargement vous donne, vous pouvez vous assurer que vous possédez le même fichier que l’original.
 
 **Nota**
 
@@ -20,9 +22,8 @@ sudo apt-get install p7zip
 ```
 
 ### Exercice
-* Téléchargez les fichiers images canal.jpg et pigeonnier.jpg à l’adresse
-https://github.com/truillet/ups/tree/master/m2issd/ressources
-* Comparez les fichiers reçus avec les empreintes MD5 données sur le même site (fichier md5sum.txt)
+* Téléchargez les fichiers images [canal.jpg](https://github.com/truillet/UToulouse/blob/master/m2issd/ressources/canal.jpg) et [pigeonnier.jpg](https://github.com/truillet/UToulouse/blob/master/m2issd/ressources/pigeonnier.jpg) à l’adresse
+* Comparez les fichiers reçus avec les empreintes MD5 données sur le même site (fichier [md5sum.txt](https://github.com/truillet/UToulouse/blob/master/m2issd/ressources/md5sum.txt))
 * Qu’en concluez-vous ?
 * Que feriez-vous ?
 
@@ -32,15 +33,14 @@ Il y a de nombreux exemples d’usage de cette technique depuis l’antiquité (
 
 L’informatique permet d’affiner cette technique en ajoutant soit des fichiers d’apparence anodine un autre fichier (utilisation par exemple de la technique LSB – Least Significant Bit)
 
-###
-* Lien : [Stéganographie](https://www.securiteinfo.com/attaques/divers/steganographie.shtml)
+* **Lien** : [Stéganographie](https://www.securiteinfo.com/attaques/divers/steganographie.shtml)
 
 ### Exercice
 * Commençons par installer steghide en tapant :
 ```bash
 sudo apt-get install steghide
 ``` 
-* Téléchargez le fichier image canal_midi.jpg sur le site (normalement déjà fait) : https://github.com/truillet/ups/blob/master/m2issd/ressources
+* Téléchargez le fichier image [canal_midi.jpg](https://github.com/truillet/UToulouse/blob/master/m2issd/ressources/canal_midi.jpg)
 * Vous avez appris par ailleurs que la passphrase utilisée est *canal*.
 * Vérifiez que la photo contient bien du contenu caché en utilisant 
 ```bash
@@ -55,9 +55,8 @@ steghide extract -sf canal_midi.jpg
 Nous  allons  maintenant  essayer  de  cracker  un  mot  de  passe  par  force  brute  (essai  de  toutes  les  combinaisons possibles). Il existe de nombreux logiciels permettant de tester toutes les combinaisons, alliant usage de la puissance
 du processeur comme celle de la carte graphique (GPU).
 
-* Téléchargez le fichier *perdu.zip* à l’adresse : 
-https://drive.google.com/open?id=1kvN-gujuvr9Yod5VYtphypExk05PxXTw.
-* Par *chance*, vous avez appris par ailleurs que le mot de passe est au maximum composé de 4 éléments et seulement composé de caractères en minuscules ... Trouvez-le !
+* Téléchargez le fichier [perdu.zip](https://drive.google.com/open?id=1kvN-gujuvr9Yod5VYtphypExk05PxXTw)
+* Par *chance*, vous avez appris par ailleurs que le mot de passe est au maximum composé de **4 éléments** et seulement composé de caractères en *minuscules* ... Trouvez-le !
 * Enfin, vérifiez le contenu !
 * Estimer le nombre d’essais à effectuer maximum pour cracker le mot de passe. Estimer ce nombre d’essais si on utilise des majuscules. Qu’en concluez-vous ?
 * Pour essayer de décrypter le mot de passe, installons le logiciel fcrackzip (outil de décryptage) : 
@@ -128,7 +127,7 @@ gpg mondoc.txt.gpg
 *  Que faire pour que cela fonctionne et que la personne puisse le déchiffrer ?
 
 ## codage RSA (Rivest, Shamir, Adleman, 1977)
-**RSA** (du nom de ses inventeurs et un codage de cryptographie dit asymétrique (à clé publique et clé privée). RSA permet d’assurer la confidentialité (seul le propriétaire de la clé privée peut déchiffrer le message reçu) et la non-altération et non-répudiation. Seul le propriétaire de la clé privée peut signer un message. Une signature déchiffrée avec la clé publique permet de prouver l’authenticité du message. L’algorithme étant public, sa difficulté réside dans la difficulté à factoriser un grand nombre.
+**[RSA](https://fr.wikipedia.org/wiki/Chiffrement_RSA)** (du nom de ses inventeurs et un codage de cryptographie dit *asymétrique* (à clé publique et clé privée). RSA permet d’assurer la confidentialité (seul le propriétaire de la clé privée peut déchiffrer le message reçu) et la non-altération et non-répudiation. Seul le propriétaire de la clé privée peut signer un message. Une signature déchiffrée avec la clé publique permet de prouver l’authenticité du message. L’algorithme étant public, sa difficulté réside dans la difficulté à factoriser un grand nombre.
 
 Une  clé  RSA  de  2048  bits  a  pu  être  craquée  en  2016.  L’ANSSI  préconise  l’emploi  de  clés  [RSA  de  3072  bits]
 (https://cyber.gouv.fr/sites/default/files/2021/03/anssi-guide-selection_crypto-1.0.pdf).
@@ -158,7 +157,7 @@ René utilise RSA et publie sa clé publique (n=187, e=3)
 **Rappel**
 chiffrement du caractère (x) --> C=(x)e mod n
 
-En utilisant le fait que l’indicatrice d’Euler phi(n)=(p-1).(q-1) est égal à 160 dans notre cas, retrouvez les facteurs premiers p et q (permettant le calcul de la clé secrète de René)
+En utilisant le fait que l’indicatrice d’Euler phi(n)=(p-1).(q-1) est égal à 160 dans notre cas, retrouvez les facteurs premiers **p** et **q** (permettant le calcul de la clé secrète de René)
 * Qu’en concluez-vous sur l’algorithme en général ?
 
 **Liens**
@@ -176,7 +175,7 @@ steghide embed -cf fichier.jpg -ef fichier_à_cacher
 *  Partagez deux images jpeg dont l’une contenant le message caché et le premier fichier zip
 *  Récupérez le travail d’un de vos collègues et essayez de retrouver la clé publique partagée !
 * Codez un message secret avec la clé publique trouvée et la transmettre à votre collègue
-* Récupérez le message codé et le décoder …
+* Récupérez le message codé et le décoder ...
 
 ### Aller plus loin
-* distribution  Kali : Linux  2025.1, *[The  most  advanced  penetration testing  distribution](https://www.kali.org/get-kali/#kali-installer-images)*
+* distribution  Kali : Linux  2025.4, *[The  most  advanced  penetration testing  distribution](https://www.kali.org/get-kali/#kali-installer-images)*
