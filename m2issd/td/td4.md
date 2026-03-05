@@ -52,6 +52,10 @@ steghide extract -sf canal_midi.jpg
 ```
 
 ### attaque de mots de passe par force brute
+Commençons par installer unzip en tapant :
+```bash
+sudo apt-get install unzip
+``` 
 Nous  allons  maintenant  essayer  de  cracker  un  mot  de  passe  par  force  brute  (essai  de  toutes  les  combinaisons possibles). Il existe de nombreux logiciels permettant de tester toutes les combinaisons, alliant usage de la puissance
 du processeur comme celle de la carte graphique (GPU).
 
