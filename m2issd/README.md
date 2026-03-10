@@ -13,7 +13,7 @@
    * [Livre blanc de l'OSINT](https://ozint.eu/contributions/Livre%20blanc-Le%20cadre%20legal%20OSINT-2023.pdf)
    * [YT - Tuto Maltego + GEOINT](https://www.youtube.com/watch?v=23bC9GQLB38)
 * [3 - Scanning](https://github.com/truillet/ups/blob/master/m2issd/cours/Scanning.pdf) (2025)
-* [4- Gaining Access](https://github.com/truillet/ups/blob/master/m2issd/cours/Gaining_Access.pdf) (2025)
+* [4- Gaining Access](https://github.com/truillet/ups/blob/master/m2issd/cours/Gaining_Access.pdf) (2026)
   * [xz backdoor](https://arstechnica.com/security/2024/04/what-we-know-about-the-xz-utils-backdoor-that-almost-infected-the-world/)
   * [NTLM to plaintext password](https://ntlm.pw)
    
@@ -29,7 +29,7 @@
   * [Business Intelligence](https://github.com/truillet/ups/blob/master/m2issd/td/td2_busint.md) (2025)
     * Un jeu : [Sourcing Games, Games for Recruiters and Sourcers](https://sourcing.games)
     * *quelques liens*
-      * [Google Dorks](https://www.exploit-db.com/google-hacking-database) et [DorkSearch.com](https://dorksearch.com)
+      * [Google Dorks](https://www.exploit-db.com/google-hacking-database) et [DorkSearch.com](https://dorksearch.com);
       * [OSINT Map](https://cybdetective.com/osintmap)
       * [Ask OSM Map](https://overpass-turbo.eu)
       * [MetaGuessR](https://metaguessr.wordpress.com)
