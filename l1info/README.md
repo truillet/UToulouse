@@ -16,6 +16,7 @@ Cet enseignement est en lien étroit avec le [FabLab](http://campusfab.univ-tlse
 ### Programmation Arduino/Rapsberry
 * support de présentation arduino
   * exemples de base
+  * [simulateur arduino/ESP32](https://wokwi.com)
 * support de présentation raspberry
      
 **Drivers**
