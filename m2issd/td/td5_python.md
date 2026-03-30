@@ -11,6 +11,7 @@ Le langage python est déjà installé sur le raspberry. Les librairies utiles p
 ```bash
 pip install <nom_librairie>
 ```
+## Exercice 1 : 
 
 ## Exercice 1 : Ave Caesar !
 En cryptographie, le chiffrage de César est une technique très simple de chiffrement où chaque lettre est remplacée par une autre. Par exemple, avec un remplacement de 3, A sera remplacé par la lettre D, B deviendra un E, etc. Julius Caesar utilisait cette technique pour communiquer avec ses généraux. ROT13 (rotation de 13 places) est souvent utilisé comme un exemple d’usage de ce code. En Python, la clé **RO13** peut être représentée par le biais du dictionnaire suivant :
@@ -31,7 +32,6 @@ Pnrfne pvcure? V zhpu cersre Pnrfne fnynq!
 **Note** : Vous utiliserez un alphabet latin non accentué.
 
 ## Exercice 2 : Parlez-vous l’ICAO ?
-
 L’alphabet défini par l’ICAO (International Civil Aviation Organization) assigne des mots aux lettres de l’alphabet (Alfa for A, Bravo for B, etc.) permettant une communication orale non ambiguë entre un émetteur et un récepteur.
 
 * Définissez un dictionnaire en python permettant cette transcription
@@ -53,13 +53,13 @@ os.system("espeak –ven \"" + txt + "\" 2>/dev/null")
 ```
 
 ## Exercice 3 : découverte du module socket
-A l’aide du document disponible ici (**https://docs.python.org/3/library/socket.html**), répondez aux questions suivantes et donner l’API python correspondante :
+A l’aide du document disponible ici (**https://docs.python.org/3/library/socket.html**), répondez aux questions suivantes :
 
 1. Qu’est-ce qu’une application client/serveur ?
 2. Décrire les différentes étapes nécessaires à l’établissement d’une connexion entre un client et un serveur.
 3. Comment le client envoie-t-il un message au serveur ? Comment le serveur le récupère-t-il ?
 
-## Librairie scapy
+## La librairie scapy - forger ses paquets !
 Scapy est une librairie de manipulation de paquets réseaux. Cet utilitaire permet de manipuler, forger, décoder, émettre, recevoir les paquets d’une multitude de protocoles (ARP, DHCP, DNS, ICMP, IP…).
 
 Il peut facilement manipuler la plupart des tâches classiques comme le scan, traceroute, des investigations, des attaques ou la découverte de réseaux. Il permet d’exécuter des tâches spécifiques que la plupart des autres outils ne sont pas capables de traiter, comme envoyer des trames invalides, injecter ses propres trames, combiner des techniques, etc.
