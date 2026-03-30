@@ -17,10 +17,10 @@
   * [xz backdoor](https://arstechnica.com/security/2024/04/what-we-know-about-the-xz-utils-backdoor-that-almost-infected-the-world/)
   * [NTLM to plaintext password](https://ntlm.pw)
    
-* 5- **Programmer / Preuves de concepts**
-  * [Introduction à Python](https://github.com/truillet/ups/blob/master/m2issd/cours/Python.pdf) (2025)
-  * [Focus sur le reverse Shell](https://github.com/truillet/ups/blob/master/m2issd/cours/Reverse_Shell.pdf) (2024)
-  
+* 5- **Programmer / Preuves de concepts** 
+  * [Focus sur le reverse Shell](https://github.com/truillet/ups/blob/master/m2issd/cours/Reverse_Shell.pdf) (2026)
+  * [Introduction à Python](https://github.com/truillet/ups/blob/master/m2issd/cours/Python.pdf) (2026)
+   
 ## Travaux Dirigés
 * **TD1** : [TCP/IP](https://github.com/truillet/ups/blob/master/m2issd/td/td1.md) (2025)
 * **TD2** :
@@ -41,18 +41,20 @@
    * [Rowbot's PenTest Notes](https://guide.offsecnewbie.com/shells)
    * **stéganographie** : [The Undetectable Cybersecurity Threat](https://builtin.com/cybersecurity/steganography) / [Steg-NG](https://github.com/brandon1024/steg-png)
    * [l'algorithme qui sécurise internet](https://www.youtube.com/watch?v=1Yv8m398Fv0)
-* **TD5** : [Python & librairie scapy](https://github.com/truillet/ups/blob/master/m2issd/td/td5_python.md) (2025)
+* **TD5** : [Python & librairie scapy](https://github.com/truillet/ups/blob/master/m2issd/td/td5_python.md) (2026)
    * [article de GNU Linux Mag](https://connect.ed-diamond.com/GNU-Linux-Magazine/GLMFHS-090/Scapy-le-couteau-suisse-Python-pour-le-reseau)
-   * code [ROT13](https://github.com/truillet/ups/blob/master/m2issd/code/ROT13.py) et [OACI](https://github.com/truillet/ups/blob/master/m2issd/code/OACI.zip)
+   * [thonny](https://thonny.org)
    * [edupyter](https://www.edupyter.net) (windows)
+   * code [ROT13](https://github.com/truillet/ups/blob/master/m2issd/code/ROT13.py) et [OACI](https://github.com/truillet/ups/blob/master/m2issd/code/OACI.zip)
+
 
 ## Annales d'examens sur table
 * **[Sujet Examen 2021](https://github.com/truillet/ups/blob/master/m2issd/annales/Exam_m2issd_20-21_UE8.pdf)**
 * **[Sujet Examen 2022](https://github.com/truillet/ups/blob/master/m2issd/annales/Exam_m2issd_21-22_UE8.pdf)**
 * **[Sujet Examen 2023](https://github.com/truillet/ups/blob/master/m2issd/annales/Exam_m2issd_22-23_UE10.pdf)**
 * **[Sujet Examen 2024](https://github.com/truillet/ups/blob/master/m2issd/annales/Exam_m2issd_23-24_UE10.pdf)**
-## Quelques liens
 
+## Quelques liens
 ### outils
 * [';--have i been pwned?](https://haveibeenpwned.com)
 * [A quick and dirty PCAP parser that helps you identify who your applications are sending sensitive data to without encryption](https://github.com/danielmiessler/Caparser)
