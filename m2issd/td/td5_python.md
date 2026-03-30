@@ -11,7 +11,6 @@ Le langage python est déjà installé sur le raspberry. Les librairies utiles p
 ```bash
 pip install <nom_librairie>
 ```
-## Exercice 1 : 
 
 ## Exercice 1 : Ave Caesar !
 En cryptographie, le chiffrage de César est une technique très simple de chiffrement où chaque lettre est remplacée par une autre. Par exemple, avec un remplacement de 3, A sera remplacé par la lettre D, B deviendra un E, etc. Julius Caesar utilisait cette technique pour communiquer avec ses généraux. ROT13 (rotation de 13 places) est souvent utilisé comme un exemple d’usage de ce code. En Python, la clé **RO13** peut être représentée par le biais du dictionnaire suivant :
