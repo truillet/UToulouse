@@ -1,7 +1,7 @@
-﻿#!/usr/bin/env python
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-# Exercice 1 - code de Caesar
+# Exercice 2 - code de Caesar - ROT13
 
 # fonction d'encodage
 def encode(texte):
@@ -12,6 +12,7 @@ def encode(texte):
     for i in range(len(texte)):
         texte_encode=texte_encode+rot13[texte[i]]
     return(texte_encode)
+
 
 # programme principal
 def main():
