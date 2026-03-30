@@ -7,11 +7,11 @@
      * [Douglas Engelbart, inventeur et visionnaire](https://interstices.info/douglas-engelbart-inventeur-et-visionnaire/)
      * [Première connexion française à ARPANET](https://interstices.info/au-coeur-de-la-premiere-connexion-francaise-a-larpanet/)
      * [La Neutralité du net face à l'évolution des réseaux](https://interstices.info/la-neutralite-du-net-face-a-levolution-des-reseaux/)
-
 * [2 - Reconnaissance (OSINT)](https://github.com/truillet/ups/blob/master/m2issd/cours/OSINT_Reconnaissance.pdf) (2025)
   * [Qu'est que l'OSINT](https://www.numerama.com/cyberguerre/1628506-quest-ce-que-losint.html)
    * [Livre blanc de l'OSINT](https://ozint.eu/contributions/Livre%20blanc-Le%20cadre%20legal%20OSINT-2023.pdf)
    * [YT - Tuto Maltego + GEOINT](https://www.youtube.com/watch?v=23bC9GQLB38)
+   * [Fake Image Detector](https://www.fakeimagedetector.com)
 * [3 - Scanning](https://github.com/truillet/ups/blob/master/m2issd/cours/Scanning.pdf) (2025)
 * [4- Gaining Access](https://github.com/truillet/ups/blob/master/m2issd/cours/Gaining_Access.pdf) (2026)
   * [xz backdoor](https://arstechnica.com/security/2024/04/what-we-know-about-the-xz-utils-backdoor-that-almost-infected-the-world/)
@@ -46,7 +46,6 @@
    * [thonny](https://thonny.org)
    * [edupyter](https://www.edupyter.net) (windows)
    * code [ROT13](https://github.com/truillet/ups/blob/master/m2issd/code/ROT13.py) et [OACI](https://github.com/truillet/ups/blob/master/m2issd/code/OACI.zip)
-
 
 ## Annales d'examens sur table
 * **[Sujet Examen 2021](https://github.com/truillet/ups/blob/master/m2issd/annales/Exam_m2issd_20-21_UE8.pdf)**
