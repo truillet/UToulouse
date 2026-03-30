@@ -331,7 +331,7 @@ Cela créé un sniffeur de paquets en direct qui renverra toutes les requêtes A
 L’ensemble de la méthode stipule que si un paquet est à la fois un paquet ARP et que l’opération de ce paquet est **who-has** ou **is-at**, alors il affichera une ligne indiquant l’adresse MAC source et l’adresse IP source de ce paquet ARP. Cette méthode est appliquée à la commande sniff à l’aide de la fonction prn. Une autre chose importante à noter est que « store=0 » est également appliqué à la commande sniff, et ce afin que scapy évite de stocker tous les paquets dans sa mémoire.
 
 ### Scanner ARP
-Il existe une multitude d’outils permettant de découvrir les adresses IP internes. Beaucoup de ces outils utilisent le protocole de résolution d'adresses (ARP) pour découvrir les hôtes.
-Télécharger le code à l’adresse suivante et l’éxécuter : https://github.com/truillet/ups/blob/master/m2issd/code/arpscan.py
+Il existe une multitude d’outils permettant de découvrir les adresses IP internes. Beaucoup de ces outils utilisent le protocole de résolution d'adresses (**ARP**) pour découvrir les hôtes.
+Télécharger le code à l’adresse suivante et l’éxécuter : (arpscan)[https://github.com/truillet/ups/blob/master/m2issd/code/arpscan.py]
 
-**Combien de machines sont-elles connectée sur le reseaux et trouvez leur adresse MAC ?**
+**Combien de machines sont-elles connectées sur le réseau et trouvez leur adresse MAC ?**
