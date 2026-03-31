@@ -47,7 +47,7 @@ Sous Python, la commande pour faire "parler" le Raspberry ressemble à cela :
 ```python
 import os
 
-txt = "papa tango Charlie "
+txt = "papa tango charlie "
 os.system("espeak –ven \"" + txt + "\" 2>/dev/null")
 ```
 
