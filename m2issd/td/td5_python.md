@@ -21,7 +21,7 @@ key = {'a':'n', 'b':'o', 'c':'p', 'd':'q', 'e':'r', 'f':'s', 'g':'t', 'h':'u',
 'y':'l', 'z':'m', 'A':'N', 'B':'O', 'C':'P', 'D':'Q', 'E':'R', 'F':'S',
 'G':'T', 'H':'U', 'I':'V', 'J':'W', 'K':'X', 'L':'Y', 'M':'Z', 'N':'A',
 'O':'B', 'P':'C', 'Q':'D', 'R':'E', 'S':'F', 'T':'G', 'U':'H', 'V':'I',
-'W':'J', 'X':'K', 'Y':'L', 'Z':'M'}
+'W':'J', 'X':'K', 'Y':'L', 'Z':'M', ' ':' '}
 ```
 Votre tâche dans cet exercice est d’implémenter un encodeur/décodeur de **ROT-13**. Une fois fait, vous devriez être en mesure de lire le message secret suivant :
 ```
