@@ -16,6 +16,7 @@
 * [4- Gaining Access](https://github.com/truillet/ups/blob/master/m2issd/cours/Gaining_Access.pdf) (2026)
   * [xz backdoor](https://arstechnica.com/security/2024/04/what-we-know-about-the-xz-utils-backdoor-that-almost-infected-the-world/)
   * [NTLM to plaintext password](https://ntlm.pw)
+  * **CVE-2026-31431** : [Copy Fail](https://copy.fail), un script python de 732 octets qui permet de devenir root sur toutes les distributions linix de 2017 à 2026
    
 * 5- **Programmer / Preuves de concepts** 
   * [Focus sur le reverse Shell](https://github.com/truillet/ups/blob/master/m2issd/cours/Reverse_Shell.pdf) (2026)
